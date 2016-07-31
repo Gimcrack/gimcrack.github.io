@@ -1,0 +1,43 @@
+* {
+    font-family: 'Droid Sans', sans-serif;
+    border-radius: 0px !important;
+    color:#3a424f;
+}
+
+body, html {
+    background:        
+    linear-gradient(
+        to left top, 
+        #605b7b 0%/*bottom-right color*/, 
+        #3a424f 50%,
+        #5B667B 100% /*top-left color*/
+    );
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+p.social {
+    position: absolute;
+    right: -28px;
+    top: -37px;
+}
+
+.jumbotron {
+    margin-top : 40px;
+    background: rgba(183,226,240,0.7);
+    border: 2px solid white;
+}
+
+.jumbotron h1 {
+    font-family: 'Montserrat', sans-serif;
+    color:#5B667B;
+}
+
+.jumbotron img {
+    width:200px;
+    border:2px solid white;
+}
+
+.job-title h3 {
+    margin:0;
+}
